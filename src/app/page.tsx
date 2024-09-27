@@ -36,7 +36,7 @@ const Home = () => {
                 setMovies(moviesData);
             } catch (error) {
                 console.error("Error:", error);
-                setError("Filmler yüklenirken bir hata oluştu.");
+                setError("Filmler yüklenirken bir hata oluştu.");   
             } finally {
                 setLoading(false);
             }
